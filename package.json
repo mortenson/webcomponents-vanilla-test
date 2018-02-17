@@ -1,0 +1,18 @@
+{
+  "name": "webcomponents-vanilla-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel component.js --out-file component.es5.js --presets=env && open index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

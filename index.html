@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="component.es5.js"></script>
+  </head>
+  <body>
+    <my-component name="World!" id="example"></my-component>
+    <div>
+      <label for="text">Type here to change the 'name' attribute above, which fails in Firefox:</label>
+      <input id="text" type="text" value="World!" onkeyup="example.setAttribute('name', this.value)">
+    </div>
+  </body>
+</html>
